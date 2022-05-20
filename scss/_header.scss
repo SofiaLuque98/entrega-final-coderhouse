@@ -1,0 +1,26 @@
+
+header{
+    background-color: rgba(255, 255, 0, 0.5);
+    border-bottom: 1px solid black;
+    .logo{
+        width: 300px;
+        height: 100px;
+        margin-left: 5px;
+    }
+    .nav-item{
+        list-style: none;
+        margin-left: 2rem; 
+       
+        .nav-link{
+            text-decoration: none;
+            text-transform: initial;
+            color: black;
+            &:hover{
+                color: rgb(13, 13, 0);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+

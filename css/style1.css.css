@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(../panesfondo.jpg);
+}
+
+
+.contenedor1,.contenedor2,.contenedor3,.contenedor4,.contenedor5{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.seccion-productos-grid{
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 100px 100px;
+}
+.lista-productos li{
+    list-style-type: disc;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portada{
+    margin: 5%;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+    border-width: 10px;
+    border-color: black;
+    border-style:inset
+    
+}
+
+.header__nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: initial;
+    color: black
+}
+
+
+.seccion-productos ul li{
+background-color: rgba(255, 0, 0, 0.5);
+display:flex
+
+}
+
+.seccion-principal{
+    background-color: rgba(255, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+.seccion-preguntas{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.seccion-2{
+    background-color: rgba(255, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2-form{
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: left;
+}
+
+
+
+
+.seccion-preguntas2{
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+.tabla{
+    background-color:grey
+}
+
+.ubicacion1,.ubicacion2{
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-style:double
+}
+
+
+.ubicacion3{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.texto{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+}
+
+.texto1{
+    text-align: center;
+}
+
+.panaderia{
+    margin: 5%;
+    padding: 0;
+    text-align: left;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+}
+
+.panaderianm{
+    margin: 5%;
+    padding: 0;
+    text-align: right;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+
+}
+h2{
+    color: black;
+    text-align: center;
+}
+
+
+.seccion-3,.seccion-tres.prod,.seccion-preguntas3{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.seguinos,.logo_facebook,.logo_instagram,.logo_twitter,.logo_whatsapp,.whatsapp{
+    text-align: center;
+}

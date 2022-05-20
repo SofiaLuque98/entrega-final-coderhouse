@@ -1,0 +1,27 @@
+$color-amarillo:rgba(255, 255, 0, 0.5);
+$color-rojo:red;
+$color-blanco:white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    .productos{
+        background:$color-rojo;
+        h3{
+            font-size:20px;
+        }
+    }    
+}
+
+@import "header";
+@import "index";
+@import "footer";
+@import "card";
+@import "sucursales";
+@import "cardproducto";
