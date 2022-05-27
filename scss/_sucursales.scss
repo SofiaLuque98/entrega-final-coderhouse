@@ -1,7 +1,13 @@
-.sucursales .log-localiza{
-      &hover{
-          .mapa{
-              display: flex;
+.sucursales {
+
+
+      .card--sucursales{
+        color:$color-blanco;
+        background:red ;
+        border: none;
+        border-radius:10px 10px;
+          .img{
+              width: 600px;
           }
       }
     
