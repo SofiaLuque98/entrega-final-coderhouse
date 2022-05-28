@@ -62,57 +62,32 @@
     </div>
   </main>
   
-<div class="row bg-danger">
-  <h2 class="d-flex justify-content-center">¿Conoces los precios de Nuestros Productos? ¡Enterate acá!</h2>
-  <div class="col">
-    <table class="table table-hover table-bordered dark">
-      <thead>
-        <tr>
-          <th class="bg-dark text-white">Producto</th>
-          <th class="bg-dark text-white">Cantidad</th>
-          <th class="bg-dark text-white">Precio</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Pan Bollito</td>
-          <td>Kg</td>
-          <td>$290</td>
-        </tr>
-        <tr>
-          <td>Pan Mignón/Francés</td>
-          <td>Kg</td>
-          <td>$250</td>
-        </tr>
-        <tr>
-          <td>Pan con Salvado</td>
-          <td>Kg</td>
-          <td>$330</td>
-        </tr>
-        <tr>
-          <td>Facturas</td>
-          <td>c/u</td>
-          <td>$65</td>
-        </tr>
-        <tr>
-          <td>Pre Pizzas</td>
-          <td>c/u</td>
-          <td>$135</td>
-        </tr>
-        <tr>
-          <td>Masitas</td>
-          <td>1/4 Kg</td>
-          <td>$290</td>
-        </tr>
-        <tr>
-          <td>Mini Facturas</td>
-          <td>1/4 Kg</td>
-          <td>$245</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>           
+  <main class="container-lg formulario g-0 p-4 mb-2">
+    <h1>Formulario</h1>
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationCustom01" alt="ingrese su nombre">
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label" >Apellido</label>
+        <input type="text" class="form-control" id="validationCustom02" alt="ingrese su apellido" >
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label" >Teléfono</label>
+        <input type="text" class="form-control" id="validationCustom02" alt="ingrese su telefono" >
+      </div>
+      
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" alt="ingrese su comentario"></textarea>
+        <label for="floatingTextarea">Envianos tu duda o consulta</label>
+      </div>
+      <div class="col-12 d-flex justify-content-around mb-3">
+        <button class="btn boton--formulario" type="submit" alt="boton enviar formulario" >Enviar</button>
+        <button class="btn boton--formulario" type="submit" alt="boton limpiar formulario">Limpiar</button>
+      </div>
+
+    </main>
 
   </main>
 
