@@ -91,9 +91,6 @@ footer {
   color: black;
 }
 
-.sucursales {
-  background-color: rgb(250, 250, 204);
-}
 .sucursales .card--sucursales {
   color: white;
   background: red;
@@ -127,7 +124,7 @@ footer {
 }
 
 .seccion-preguntas {
-  color: red;
+  color: black;
   background-color: rgb(250, 250, 204);
 }
 
