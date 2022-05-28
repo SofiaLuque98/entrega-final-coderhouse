@@ -91,6 +91,9 @@ footer {
   color: black;
 }
 
+.sucursales {
+  background-color: rgb(250, 250, 204);
+}
 .sucursales .card--sucursales {
   color: white;
   background: red;
@@ -121,6 +124,19 @@ footer {
 .producto .btn {
   padding: 3px;
   background-color: white;
+}
+
+.seccion-preguntas {
+  color: red;
+  background-color: rgb(250, 250, 204);
+}
+
+.list-group-item {
+  background-color: rgb(250, 250, 204);
+}
+
+.formulario-duda {
+  background-color: rgb(250, 250, 204);
 }
 
 /*# sourceMappingURL=style.css.map */
