@@ -1,6 +1,6 @@
 
 header{
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: $color-amarillo;
     border-bottom: 1px solid black;
     .logo{
         width: 300px;
@@ -14,9 +14,9 @@ header{
         .nav-link{
             text-decoration: none;
             text-transform: initial;
-            color: black;
+            color: $color-negro;
             &:hover{
-                color: rgb(13, 13, 0);
+                color: $color-negro;
                 font-weight: bold;
             }
         }

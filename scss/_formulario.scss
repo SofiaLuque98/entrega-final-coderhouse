@@ -1,0 +1,14 @@
+.formulario{
+    background-color: $color-amarillo-suave;
+    box-shadow: 0px 20px 16px rgb(119, 119, 119);
+    .textarea-tamaño{
+        height: 300px;
+    }
+    .boton--formulario{
+        background-color: $color-amarillo;
+        &:hover{
+            background-color: $color-amarillo-suave;
+            font-weight: bold;
+        }
+    }
+}
